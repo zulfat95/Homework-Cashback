@@ -2,6 +2,7 @@ language: node_js
 node_js:
   - 10
 after_success:
+  - npm run coverage && npx codecov
   - mkdir dist
   - cp -R src/index.html src/style.css src/js dist
 deploy:

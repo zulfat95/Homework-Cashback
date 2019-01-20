@@ -8,7 +8,7 @@ const resultEl = document.getElementById('result');
 
 function reactToClick() {
     const amount = [parseInt(amountEl.value), parseInt(amountEl2.value), parseInt(amountEl3.value)];
-    resultEl.textContent = calculateCashback(amount) + 'руб';
+    resultEl.textContent = calculateCashback(amount);
 }
 
 calculateEl.addEventListener('click', reactToClick);

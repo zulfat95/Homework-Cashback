@@ -3,7 +3,7 @@ node_js:
   - 10
 after_success:
   - mkdir dist
-  - cp -R src/index.html js dist
+  - cp -R index.html js dist
 deploy:
   provider: pages
   skip_cleanup: true

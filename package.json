@@ -2,11 +2,10 @@
   "name": "js-language",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "serve": "browser-sync start -s -f \".\"",
+    "serve": "browser-sync start -s \"src\" -f \".\"",
     "test": "jest",
-    "test-coverage": "jest --coverage"
+    "coverage": "jest --coverage"
   },
   "babel": {
     "presets": [

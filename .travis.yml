@@ -1,6 +1,9 @@
 language: node_js
 node_js:
   - 10
+install:
+  - npm i
+  - npmi codecov
 after_success:
   - npm run coverage && npx codecov
   - mkdir dist

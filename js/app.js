@@ -8,7 +8,13 @@ const resultEl = document.getElementById('result');
 
 function reactToClick() {
     const amount = [parseInt(amountEl.value), parseInt(amountEl2.value), parseInt(amountEl3.value)];
-    resultEl.textContent = calculateCashback(amount);
+    resultEl.textContent = calculateCashback(amount) + 'руб';
+    // if (isNaN(amount)) {
+    //     resultEl.textContent = 'Вы не ввели сумму';
+    // }
+    // else {
+    //     return amount;
+    // }
 }
 
 calculateEl.addEventListener('click', reactToClick);

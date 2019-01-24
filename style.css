@@ -1,0 +1,12 @@
+label, input, button, p {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+p {
+    text-decoration: underline;
+}
